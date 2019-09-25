@@ -34,15 +34,15 @@ Apply + OK
 
 #### error
  - 找不到或无法加载主类
- 1. Menu => File => Project Structure => Modules
+ 1. Menu => File => Project Structure => Modules  
  选中左列的CodersHotel-master，点击减号删除 => Yes
  2. 打开项目所在文件夹，删除.idea 文件夹
- 3. Menu => File => Project Structure => Modules
+ 3. Menu => File => Project Structure => Modules  
  点击 + => Import Module => 找到文件所在目录 => open
  4. Create module from existing sources => next * n => Finish
- 5. Menu => File => Project Structure => Modules => Path => Use module compile out path
- 设置Output path： 文件所在路径/out/production
- 设置Test Output path： 文件所在路径/out/production
+ 5. Menu => File => Project Structure => Modules => Path => Use module compile out path  
+ 设置Output path： 文件所在路径/out/production  
+ 设置Test Output path： 文件所在路径/out/production  
  Apply => OK
 
 #### 运行项目  
@@ -50,7 +50,7 @@ Apply + OK
 
 
 ##### 运行测试    
-Run 以下目录下 Test
+Run 以下目录下 Test  
 ` test/bonder`
 ` test/error`
 ` test/function`
