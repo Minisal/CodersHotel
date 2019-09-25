@@ -12,13 +12,8 @@
 #### JDK
 
 `terminal > java -version`   
-<<<<<<< HEAD
 java version "1.8.0_221"  
 Java(TM) SE Runtime Environment (build 1.8.0_221-b11)  
-=======
-java version "1.8.0_221"
-Java(TM) SE Runtime Environment (build 1.8.0_221-b11)
->>>>>>> c3155a7f8c0572bb45c8ea6846337e832d5c6b39
 Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 
 #### junit@1.4.9
@@ -32,17 +27,10 @@ IntelliJ IDEA
 打开lib文件夹，对文件夹中三个文件依次右键=>Add as Library
 
 #### 在项目中配置JDK  
-<<<<<<< HEAD
 File=>Project Structure  
 Project=>Project SDK  
 下拉菜单=>1.8  
 Apply + OK
-=======
-File=>Project Structure
-Project=>Project SDK
-下拉菜单=>1.8
-apply+ok
->>>>>>> c3155a7f8c0572bb45c8ea6846337e832d5c6b39
 
 #### error
  - 找不到或无法加载主类
@@ -57,7 +45,6 @@ apply+ok
  设置Test Output path： 文件所在路径/out/production
  Apply => OK
 
-<<<<<<< HEAD
 #### 运行项目  
 `Run CodersHotelRunner `
 
@@ -68,13 +55,6 @@ Run 以下目录下 Test
 ` test/error`
 ` test/function`
 
-=======
-##### 运行项目： Run CodersHotelRunner 
-##### 运行测试：Run 以下目录下 Test
- test/bonder
- test/error
- test/function
->>>>>>> c3155a7f8c0572bb45c8ea6846337e832d5c6b39
 
 
 ##### 单元测试详情见 report.pdf
