@@ -11,7 +11,7 @@
 
 #### JDK
 
-`terminal > java -version`
+`terminal > java -version`   
 java version "1.8.0_221"
 Java(TM) SE Runtime Environment (build 1.8.0_221-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
@@ -26,6 +26,30 @@ IntelliJ IDEA
 使用 IntelliJ IDEA 打开项目
 打开lib文件夹，对文件夹中三个文件依次右键=>Add as Library
 
+#### 在项目中配置JDK  
+File=>Project Structure
+Project=>Project SDK
+下拉菜单=>1.8
+apply+ok
+
+#### error
+ - 找不到或无法加载主类
+ 1. Menu => File => Project Structure => Modules
+ 选中左列的CodersHotel-master，点击减号删除 => Yes
+ 2. 打开项目所在文件夹，删除.idea 文件夹
+ 3. Menu => File => Project Structure => Modules
+ 点击 + => Import Module => 找到文件所在目录 => open
+ 4. Create module from existing sources => next * n => Finish
+ 5. Menu => File => Project Structure => Modules => Path => Use module compile out path
+ 设置Output path： 文件所在路径/out/production
+ 设置Test Output path： 文件所在路径/out/production
+ Apply => OK
+
+##### 运行项目： Run CodersHotelRunner 
+##### 运行测试：Run 以下目录下 Test
+ test/bonder
+ test/error
+ test/function
 
 
 ##### 单元测试详情见 report.pdf
