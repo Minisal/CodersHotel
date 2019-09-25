@@ -1,4 +1,4 @@
-package com.test.boder;
+package com.test.bonder;
 
 import com.PhoneClock;
 import org.junit.Before;
