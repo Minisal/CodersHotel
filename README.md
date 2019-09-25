@@ -27,7 +27,5 @@ IntelliJ IDEA
 打开lib文件夹，对文件夹中三个文件依次右键=>Add as Library
 
 
-#### 代码结构
 
-
-#####单元测试详情见 report.pdf
+##### 单元测试详情见 report.pdf
